@@ -1,0 +1,196 @@
+{
+  "MinecraftDataVersion": 4671,
+  "Version": 7,
+  "Metadata": {
+    "TimeCreated": [
+      412,
+      873916065
+    ],
+    "TimeModified": [
+      412,
+      873916065
+    ],
+    "EnclosingSize": {
+      "x": 3,
+      "y": 3,
+      "z": 5
+    },
+    "Description": "",
+    "RegionCount": 1,
+    "TotalBlocks": 23,
+    "Author": "JaRoMaster",
+    "TotalVolume": 45,
+    "Name": "Dual Full Block Crafter"
+  },
+  "Regions": {
+    "Dual Full Block Crafter": {
+      "BlockStates": [
+        [
+          268435457,
+          286265344
+        ],
+        [
+          141588052,
+          319947280
+        ],
+        [
+          0,
+          151588888
+        ]
+      ],
+      "PendingBlockTicks": [],
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BlockStatePalette": [
+        {
+          "Name": "minecraft:air"
+        },
+        {
+          "Name": "minecraft:light_blue_wool"
+        },
+        {
+          "Properties": {
+            "mode": "compare",
+            "powered": "false",
+            "facing": "south"
+          },
+          "Name": "minecraft:comparator"
+        },
+        {
+          "Properties": {
+            "mode": "compare",
+            "powered": "false",
+            "facing": "north"
+          },
+          "Name": "minecraft:comparator"
+        },
+        {
+          "Properties": {
+            "orientation": "down_south",
+            "triggered": "false",
+            "crafting": "false"
+          },
+          "Name": "minecraft:crafter"
+        },
+        {
+          "Properties": {
+            "level": "6"
+          },
+          "Name": "minecraft:composter"
+        },
+        {
+          "Properties": {
+            "orientation": "down_north",
+            "triggered": "false",
+            "crafting": "false"
+          },
+          "Name": "minecraft:crafter"
+        },
+        {
+          "Properties": {
+            "facing": "north",
+            "enabled": "true"
+          },
+          "Name": "minecraft:hopper"
+        },
+        {
+          "Properties": {
+            "east": "none",
+            "south": "up",
+            "north": "side",
+            "west": "none",
+            "power": "0"
+          },
+          "Name": "minecraft:redstone_wire"
+        },
+        {
+          "Properties": {
+            "east": "none",
+            "south": "side",
+            "north": "up",
+            "west": "none",
+            "power": "0"
+          },
+          "Name": "minecraft:redstone_wire"
+        }
+      ],
+      "Size": {
+        "x": 3,
+        "y": 3,
+        "z": 5
+      },
+      "PendingFluidTicks": [],
+      "TileEntities": [
+        {
+          "components": {},
+          "x": 0,
+          "y": 1,
+          "z": 1,
+          "id": "minecraft:comparator",
+          "OutputSignal": 0
+        },
+        {
+          "components": {},
+          "x": 2,
+          "y": 1,
+          "z": 1,
+          "id": "minecraft:comparator",
+          "OutputSignal": 0
+        },
+        {
+          "components": {},
+          "x": 1,
+          "y": 1,
+          "z": 2,
+          "id": "minecraft:comparator",
+          "OutputSignal": 0
+        },
+        {
+          "components": {},
+          "crafting_ticks_remaining": 0,
+          "triggered": 0,
+          "x": 0,
+          "disabled_slots": [],
+          "y": 1,
+          "Items": [],
+          "z": 3,
+          "id": "minecraft:crafter"
+        },
+        {
+          "components": {},
+          "TransferCooldown": 0,
+          "x": 0,
+          "y": 1,
+          "Items": [],
+          "z": 4,
+          "id": "minecraft:hopper"
+        },
+        {
+          "components": {},
+          "crafting_ticks_remaining": 0,
+          "triggered": 0,
+          "x": 2,
+          "disabled_slots": [],
+          "y": 1,
+          "Items": [],
+          "z": 3,
+          "id": "minecraft:crafter"
+        },
+        {
+          "components": {},
+          "TransferCooldown": 0,
+          "x": 2,
+          "y": 1,
+          "Items": [],
+          "z": 4,
+          "id": "minecraft:hopper"
+        }
+      ],
+      "Entities": []
+    }
+  },
+  "SubVersion": 1
+}

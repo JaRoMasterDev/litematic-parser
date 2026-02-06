@@ -1,10 +1,14 @@
 {
   "name": "litematic-parser",
+  "type": "module",
   "version": "1.0.0",
   "description": "A parser to get useful information from .litemetica (Minecraft schematics) files",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "tsx test/index.test.ts"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,14 @@
   "bugs": {
     "url": "https://github.com/JaRoMasterDev/litematic-parser/issues"
   },
-  "homepage": "https://github.com/JaRoMasterDev/litematic-parser#readme"
+  "homepage": "https://github.com/JaRoMasterDev/litematic-parser#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "prismarine-nbt": "^2.8.0"
+  }
 }
